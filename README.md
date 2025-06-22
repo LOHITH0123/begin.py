@@ -17,6 +17,7 @@ print("Name:")
 is_logged_in = True
 print("Logged in?")
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #types of operators
     (1) Arthematic
@@ -87,12 +88,51 @@ else:
     print("You are NOT eligible to vote.")
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+#for loops
+nums=[1,2,3,4,5]
+for num in nums:
+    print(num)
+    
+#break
+for num in nums:
+    if num==3:
+        print("Found1")
+        break
+    print(num)
 
+#continue
+nums=[1,2,3,4,5]
+for num in nums:
+    if num==3:
+        print("Found!")
+        continue
+    print(num)
+    
 
+#inner loop
+nums=[1,2,3,4,5]
+for num in nums:
+    for letter in 'abc':
+        print(num, letter)
 
+#while loop
+x=1
+while x<10:
+    if x==5:
+        break
+    print(x)
+    x +=1
 
+ #infiniet loop
+x=1
+while True:
+    print(x)
+    x +=1
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
