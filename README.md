@@ -217,16 +217,106 @@ elif num<0:
 else:
     print("Zero")
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Area and Perimeter of Square
+Write a program to find the area and perimeter of square whose side length is 4.5. On the first line, print square's area and on the second line, its perimeter.
+
+
+side=4.5
+area=side*side
+perimeter=4*side
+
+print(area)
+print(perimeter)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# To find length of string
+
+
+1.method(using split fun)
+sentence = "Coding on CodeChef"
+words = sentence.split()
+
+for word in words:
+    print(f"{word} - {len(word)}")
+
+print(f"{sentence} - {len(sentence)}")
 
 
 
+2.normal method
+name="Coding on CodeChef"
+print("Coding -",len("Coding"))
+print("on -",len("on"))
+print("CodeChef -",len("CodeChef"))
+print("Coding on CodeChef -",len(name))
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Reversing the string
+
+1.normal method
+text="I Love Python"
+reversed_text=""
+
+for char in text:
+    reversed_text=char+reversed_text
+    
+print(reversed_text)
 
 
 
+2.using slicing
+text=("I Love Python")
+reversed_text=text[::-1]
+print(reversed_text)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Area of circle
+Write a program that takes the radius of a circle as input and prints its area
+formula to calculate area of circle: 3.14*radius*radius
 
+radius=float(input())
+area=3.14*radius*radius
+print(area)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Print the sentence
+Write a program that takes the two different strings as input and prints them in a single line separated by spaces.
+
+str1=input()
+str2=input()
+print(str1,"",str2)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Greet
+Write a program that takes an input string - the name of a person and prints Hello and name of the person with a space between them.
+
+name=input()
+print(f"Hello",name)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+######################
+What will the following code return as the output if the 1st line of input is 1 and the 2nd line of input is 2?
+
+a = input()
+b = input()
+c = a + b
+print(c)
+
+===>>>>> 12
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+when 2 variables need to find
+x, y=map(int,input().split())
+print(x*y)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
