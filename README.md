@@ -205,7 +205,17 @@ for i in range(5,0,-1):
         print("!",end="")
     print("\n")
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Check if no is positive negative or zero
+
+num=int(input("Enter your number: "))
+if num>0:
+    print("Positive no")
+elif num<0:
+    print("Negative no")
+else:
+    print("Zero")
 
 
 
